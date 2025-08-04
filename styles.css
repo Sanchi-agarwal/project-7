@@ -1,0 +1,151 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #fff8f0, #f0f4ff);
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to right, #ff6f61, #ffb74d);
+      color: white;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section {
+      background-color: #ffffffc7;
+      padding: 30px;
+      margin-bottom: 40px;
+      border-radius: 25px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+
+    section h2 {
+      color: #e65100;
+      font-size: 1.9rem;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      margin-bottom: 15px;
+      line-height: 1.7;
+    }
+
+    section ul {
+      padding-left: 20px;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    section li {
+      margin-bottom: 8px;
+    }
+
+    section img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: #212121;
+      color: #f0f0f0;
+      padding: 40px 20px;
+      margin-top: 40px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+    }
+
+    .footer-container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+    }
+
+    .footer-section h4 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      color: #ffcc80;
+    }
+
+    .footer-section ul,
+    .footer-section p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #ffb74d;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
